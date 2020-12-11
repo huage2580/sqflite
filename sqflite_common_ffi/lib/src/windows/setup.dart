@@ -5,6 +5,7 @@ import 'package:sqlite3/open.dart';
 import 'package:sqlite3/sqlite3.dart';
 import 'package:path/path.dart';
 import 'package:sqflite_common_ffi/src/windows/setup_impl.dart';
+import 'package:flutter/foundation.dart';
 
 /// On windows load the embedded sqlite3.dll for convenience
 void windowsInit() {
